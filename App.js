@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import Constants from 'expo-constants';
+import AltKisim from './components/altkisim'
 import Baslik from './components/baslik';
 import * as SQLite from 'expo-sqlite';
 
@@ -121,6 +122,7 @@ export default function App() {
           }
         />
       </ScrollView>
+      <AltKisim />
     </View>
   );
 
