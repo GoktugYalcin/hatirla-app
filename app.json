@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "hatirla",
+    "slug": "hatirla",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yalcincakirbas.hatirla"
+    },
+    "android": {
+      "versionCode" : 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "VIBRATE"
+      ],
+      "package": "com.yalcincakirbas.hatirla"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
